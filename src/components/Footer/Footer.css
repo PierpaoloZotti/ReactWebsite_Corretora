@@ -1,0 +1,24 @@
+.f-container {
+   justify-content: space-between;
+}
+
+.links {
+   gap: 0.8rem;
+   font-weight: 600;
+}
+
+.links a {
+   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+   .f-container {
+      flex-direction: column;
+      justify-content: center;
+   }
+   .f-right,
+   .f-left {
+      justify-content: center;
+      align-items: center;
+   }
+}

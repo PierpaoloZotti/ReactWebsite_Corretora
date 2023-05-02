@@ -1,0 +1,80 @@
+.r-container {
+   width: 100%;
+   overflow: hidden;
+   position: relative;
+}
+.r-head {
+   margin-bottom: 2rem;
+}
+.r-card > img {
+   width: 100%;
+   max-width: 15rem;
+   margin: 0.5rem auto;
+}
+.r-card > :nth-child(2) {
+   font-size: 1.3rem;
+   font-weight: 600;
+}
+.r-card > :nth-child(3) {
+   font-size: 1.6rem;
+   font-weight: 700;
+}
+.r-card > :nth-child(4) {
+   font-size: 0.9rem;
+   font-weight: 400;
+}
+.r-card {
+   /*  object-fit: max-content; */
+   transition: all 0.3s ease-in;
+   border-radius: 10px;
+   padding: 1rem;
+}
+.r-card:hover {
+   transition: all 0.3s ease-in;
+   transform: scale(1.025);
+   background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(136, 160, 255, 0.46) 217.91%
+   );
+   box-shadow: 0 72px 49px -51px rgba(136, 160, 125, 0.21);
+}
+.swiper-horizontal {
+   overflow: visible;
+}
+.r-buttons {
+   position: absolute;
+   top: -20%;
+   right: 5%;
+   display: flex;
+   justify-content: center;
+}
+.r-buttons > button {
+   background: #eee;
+   color: var(--primary);
+   font-size: 1.2rem;
+   font-weight: 700;
+   padding: 2px 12px;
+   border-radius: 4px;
+   border: none;
+   outline: none;
+   transition: all 0.3s ease-in;
+}
+.r-buttons > button:hover {
+   transform: scale(1.1);
+   box-shadow: 0 8px 12px -4px rgba(136, 160, 125, 0.25);
+   transition: all 0.3s ease-in;
+   cursor: pointer;
+}
+.r-buttons > :first-child {
+   margin-right: 0.5rem;
+}
+
+@media (max-width: 640px) {
+   .r-head {
+      align-items: center;
+   }
+   .r-buttons {
+      position: initial;
+   }
+}

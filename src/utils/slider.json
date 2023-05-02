@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Cristal Lake Residence",
+    "price": "47,043",
+    "detail": "Barra da Tijuca - Condominio Barra Bali - Av.das Americas 14400",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Asatti Garden City",
+    "price": "66,353",
+    "detail": "Barra da Tijuca - Condominio Santa Monica Jardim - Av.das Americas 8900",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Maison Italia",
+    "price": "95,853",
+    "detail": "Ilha de Guaratiba - Av.Gaspar de Lemos",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Aliva Priva Jardin",
+    "price": "47,043",
+    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Asatti Garden City",
+    "price": "66,353",
+    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Citralan Puri Serang",
+    "price": "35,853",
+    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "image": "./r3.png"
+  }
+]
